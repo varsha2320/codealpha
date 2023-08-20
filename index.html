@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Comaptible" content="IE=edge">
+        <meta name="viewport" content=""width=device-width, initial-scale="1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>
+            Varsha's Portfolio
+        </title>
+        <script src="https://kit.fontawesome.com/937b96d05f.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <ul id="sidemenu">
+                        <li> <a href = "#header">Home</a></li>
+                        <li> <a href = "#about">About</a></li>
+                        <li> <a href = "#services">Services</a></li>
+                        <li> <a href = "#portfolio">Projects</a></li>
+                        <li> <a href = "#contact">Contact</a></li>
+                        <i class="fas fa-times" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fas fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>Web/Android Developer</p>
+                    <h1>Hi, I'm<br> <span>Varsha</span> Peddi</h1>
+                </div>
+            </div>
+        </div>
+
+        <!-----------about-------------->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="c:\Users\megha\OneDrive\Desktop\varsha\website\varsha.jpg">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>Greetings! My name is Varsha Peddi, and I am now a student at SR University working on a Bachelor of Technology (B.Tech) degree. I consider Web and App development to be my area of expertise, thus these fascinating fields are where I put most of my focus.
+
+                            I deliberately chose to concentrate on Computer Science and Engineering while concentrating in the fascinating subject of Web and App development as I started my further education journey.
+
+I have developed a solid foundation in programming languages like HTML, CSS, and JavaScript during the course of my academic career. I can create dynamic, interactive websites and applications that deliver top-notch user experiences with this knowledge.
+                        </p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+                                <li><span>Web Development </span><br> Web App Development</li>
+                                <li><span>App Development(basics)</span><br>Building Android/iOS apps</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>InternPe</span><br>Interned with InternPe as a Web Developer</li>
+                                <li><span>Code Alpha </span><br> Interned with Code Alpha as a Web Developer</li>
+                                <li><span>Bharath Intern</span><br>Interned with Bharath Intern as a Web Developer</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>SR University</span><br>B.Tech in CSE with AI&ML specialization</li>
+                                <li><span>Aakash Institute </span><br>Intermediate 1yr<br>Intermediate 2yr</li>
+                                <li><span>Indian High School</span><br>Schooling</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+ <!-----------------services--------------------->  
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Web design is the planning and creation of websites.</p>
+                <a href="https://en.wikipedia.org/wiki/Web_development#:~:text=Web%20development%20is%20the%20work%20involved%20in%20developing,web%20applications%2C%20electronic%20businesses%2C%20and%20social%20network%20services.">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>UI/UX Design</h2>
+                <p>UI /UX design is a field of digital design that involves the look,feel and interactivity of a product or service.</p>
+                <a href="https://en.wikipedia.org/wiki/User_interface_design">Learn more about UI</a>
+                <a href="https://en.wikipedia.org/wiki/User_experience_design">Learn more about UX</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>Application Development</h2>
+                <p>App development is the process in which developers create an application to be used on smartphones, tablets and other mobile devices.</p>
+                <a href="https://en.wikipedia.org/wiki/Application_development">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!---------------portfolio------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <div class="layer">
+                    <h2>Simple Calculator</h2>
+                    <p>A Simple Functional Calculator using HTML, CSS and JS </p>
+                    <a href="https://github.com/Abhi5503/SimpleCalculator"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <div class="layer">
+                    <h2>Digital Clock</h2>
+                    <p>Web Design of Digital Clock using HTML, CSS and JS </p>
+                    <a href="https://github.com/Abhi5503/DIgitalCLock"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <div class="layer">
+                    <h2>Mini Calender</h2>
+                    <p>Web Design of Mini Calender using HTML, CSS and JS</p>
+                    <a href="https://github.com/Abhi5503/minicalender"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--------------contact------------->
+ <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fas fa-paper-plane"></i> varshareddy2320@gmail.com</p>
+            <p><i class="fas fa-phone-square-alt"></i>Ping me for contact..</p>
+            <div class="social-icons">
+                <a href="https://www.instagram.com/varsha_peddi/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/varsha-peddi-b5428b26b"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="copyright">
+        <p>Copyright © Varsha <i class="fa-solid fa-heart"></i> </p>
+    </div>
+ </div>
+        <script>
+
+            var tablinks=document.getElementsByClassName("tab-links");
+            var tabcontents=document.getElementsByClassName("tab-contents");
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link")
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab")
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+
+        </script>
+
+
+        <script>
+
+            var sidemenu = document.getElementById("sidemenu");
+
+            function openmenu(){
+                sidemenu.style.right = "0";
+            }
+            function closemenu(){
+                sidemenu.style.right = "-200px";
+            }
+
+        </script>
+
+  <!----linking to google sheet------>
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxxJ_a4HlsTDY9RAFYi0oYDWosjksmfDmLjxN1OYPh6jQgNiEicffPqu5aCzUaCn9_inQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent succesfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+        
+    </body>
+</html>
